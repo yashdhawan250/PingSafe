@@ -1,0 +1,337 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+   
+    gap: 10px;
+
+    position: relative;
+    width: 1024px;
+    height: 1329px;
+   
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background: #F8F9FA;
+}
+
+
+.logo{
+    position: absolute;
+    left: 350px;
+    right: 292px;
+    top: 5.18%;
+    bottom: 43.88%;
+}
+.logo2{
+
+position:relative;
+width: 48px;
+height: 48px;
+left: 5%;
+right: 10%;
+top: 5%;
+bottom: 0%;
+
+background: #FFFFFF;
+border-radius: 29px;
+padding: 11px;
+}
+
+.awss{
+    display: inline;
+    padding-top: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    align-items: center;
+    height: 100%;
+    vertical-align: middle;
+    background-color: rgba(4, 60, 208, 0.04);
+    font-family: 'Inter';
+}
+.aws{
+  padding-top: 3px;
+    
+}
+.top-div{
+    
+    width: 100%;
+    height:20%;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(89.16deg, #03298E -21.5%, #043CD0 96.58%);
+    border-radius: 4px 4px 0px 0px;
+   
+    }
+
+.mid-div{
+    top: 70%;
+
+}    
+
+.inner-text{
+font-size: 12px;
+font-family: 'Inter';
+position: relative;
+top: -7px;
+}
+.main-div{
+    position: absolute;
+    width: 100%;
+    height:1200px;
+    left: 292px;
+    right: 292px;
+    top: 150px;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+   margin-bottom: 20px;
+}
+
+.top-line{
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    /* or 80% */
+    margin-left: 5%;
+    margin-top:3%;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+
+}
+
+.sec-line{
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 5%;
+    margin-top:3%;
+    align-items: center;
+
+    color: #E6E6E6;
+
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-left: 5%;
+    margin-top:3%;
+    align-items: center;
+
+   
+    display: inline-block;
+    color: #000000;
+  }
+
+  button{
+    padding: 10px;
+    align-items: center;
+    height: 100%;
+    vertical-align: middle;
+
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+ 
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+ 
+  .card {
+    padding: 16px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    border: 1px solid #EFF1F4;
+  }
+
+  .dot{
+    width: 6px;
+    height: 6px;
+    background: #CBD5E0;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1{
+    width: 6px;
+    height: 6px;
+    background: #CC0500;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot2{
+    width: 6px;
+    height: 6px;
+    background: #CE4B23;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot3{
+    width: 6px;
+    height: 6px;
+    background: #ECA43B;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot4{
+    width: 6px;
+    height: 6px;
+    background: #6AA846;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .column2 {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+ 
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+ 
+  .card2 {
+    padding: 16px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 1px solid #EFF1F4;
+  }
+
+  .last-btn{
+    /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 24px;
+      gap: 10px;
+
+      position: absolute;
+      width: 196px;
+      height: 40px;
+     
+      margin-left: 5%;
+      margin-top:3%;
+
+      background: #043CD0;
+      border-radius: 8px;
+      border-color: #043CD0;
+  }
+
+  .btn-text{
+    width: 148px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .footer{
+    margin-left: 5%;
+    padding-top: 10px;
+    margin-top:5%;
+    margin-top: 150px;
+  }
+
+  .column-img {
+    margin-left: 5%;
+    padding-top: 5px;
+    float: left;
+    width: 3%;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row-img::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .bottom-line{
+    margin-left: 5%;
+    margin-bottom: 50px;
+  }
+  
